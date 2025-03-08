@@ -17,9 +17,8 @@ GitHub libmsx project
 ## Install
 
 ``` shell
-pip install ase2msx-X.Y.tar.gz
+pip install git+https://github.com/mori0091/ase2msx
 ```
-where `X.Y` is released version number.
 
 ## Usage
 
