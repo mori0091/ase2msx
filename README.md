@@ -11,7 +11,7 @@ GitHub libmsx project
 
 ## Requirements
 
-- ***Python** (https://www.python.org/)
+- **Python** (https://www.python.org/)
 - **aseprite** (https://www.aseprite.org/) ; Animated Sprite Editor & Pixel Art Tool
 
 ## Install
