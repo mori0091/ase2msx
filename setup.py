@@ -9,7 +9,7 @@ setup(
     author_email='mori-d@qc4.so-net.ne.jp',
     license='MIT',
     license_file='LICENSE',
-    url='https://github.com/mori0091/libmsx',
+    url='https://github.com/mori0091/ase2msx',
     packages=find_packages(),
     entry_points="""
       [console_scripts]

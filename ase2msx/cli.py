@@ -5,7 +5,7 @@
 # This software is released under the MIT License.
 # See https://github.com/mori0091/ase2msx
 
-VERSION = '1.0'
+VERSION = '1.0.0'
 
 def main():
     import argparse
