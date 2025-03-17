@@ -90,8 +90,8 @@ def tofile(a_ase, meta, img):
         for tag in meta['frameTags']:
             f.write(f'const sm2_FrameTag {ident}_tag_{toidentifier(tag["name"])} = ''{')
             f.write(f'.from = {tag["from"]}, .to = {tag["to"]}, .direction = SM2_{tag["direction"].upper()}, ' )
-            if "repeats" in tag:
-                f.write(f'.repeats = {tag["repeats"]}')
+            if "repeat" in tag:
+                f.write(f'.repeat = {tag["repeat"]}')
             f.write('};\n')
         f.write('\n'
                 f'void {ident}_init(void)''{\n'
